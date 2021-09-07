@@ -1,0 +1,12 @@
+Mechanical_LicenceNumber
+Mechanical_validate_status
+aca/service/Mechanical_permitvalidateLicense
+aca/service/update_project##jsonData.project_data.MechanicalForm.CompressorNumber
+aca/service/get_project_details##jsonData.project_data.MechanicalForm.BTUs
+aca/service/get_project_details##jsonData.project_data.MechanicalForm.Class
+aca/service/get_project_details##jsonData.project_data.MechanicalForm.CoolingMethod
+aca/service/get_project_details##jsonData.project_data.MechanicalForm.PowerSource
+aca/service/get_project_details##jsonData.project_data.MechanicalForm.TypeOfRefrigerant
+aca/service/get_project_details##jsonData.project_data.MechanicalForm.EquipmentManufacturer
+aca/service/get_project_details##jsonData.project_data.MechanicalForm.EquipmentModel
+aca/service/get_project_details##jsonData.project_data.MechanicalForm.CondensorLocation
