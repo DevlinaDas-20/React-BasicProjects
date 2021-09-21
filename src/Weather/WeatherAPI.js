@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import Weather from "./Weather";
 import "./Weather.css";
 
-const WeatherAPI = () => {
-  const API_Key = "7f40496fed1ac26dfd2165a16d0d138e";
+const WeatherAPI = (props) => {
 
+  const API_Key = props.weatherAPIprop;
+  console.log(API_Key)
   const [cityName, setcityName] = useState("kolkata");
   const [myNewWeatherInfo, setmyNewWeatherInfo] = useState([]);
 

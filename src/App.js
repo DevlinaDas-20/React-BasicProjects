@@ -6,15 +6,19 @@ import React from 'react';
 // import ToDo from './TODOAPP/ToDo';
 // import Weather from './Weather/Weather';
 import WeatherAPI from './Weather/WeatherAPI';
+//import MainForm from './ModalComponent/MainForm';
+import MainForm from './RepeatableblockComponent/MainForm'
 
 function App() {
-  
+  const WeatherAPI_Key = process.env.REACT_APP_WEATHER_API_KEY;
   return (
     <div className="App" style={{display:'inline-grid'}}>
       {/* <Restaurant /> */}
       {/* <Hooks /> */}
       {/* <ToDo /> */}
-      <WeatherAPI />
+      <WeatherAPI weatherAPIprop={WeatherAPI_Key} />
+      {/* <MainForm /> */}
+      {/* <MainForm /> */}
     </div>
   );
 }
